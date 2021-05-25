@@ -5,13 +5,13 @@
 
 body{
     font-family: Verdana, Tahoma , Arial;
-    background: -webkit-radial-gradient(top, #ccedc0 , rgb(130, 240, 231));												
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/Linux-servidores-dedicados.png);
 }
 
-
-p{
-    font-size: 14px;
-}
 
 #label {
     display:block;
@@ -80,7 +80,13 @@ p{
 #text_h1{
     font-size: 40px;  
     padding-bottom: top; 
-    color:#d27fe7;
+    color:#050305;
+}
+#text_h2{
+    font-size: 35px;  
+    padding-bottom: top; 
+    text-align: center;
+    color:#1353e9;
 }
   
   
@@ -179,7 +185,14 @@ p{
 #titulo{
     font-family: Helvetica, Arial, sans-serif;
     font-size: 40px;
-    color: rgb(5, 3, 19);
+    color: rgb(19, 3, 18);
+    text-align: center;
+
+}
+#til_con{
+    font-family: Verdana;
+    font-size: 40px;
+    color: rgb(29, 16, 211);
     text-align: center;
 
 }
@@ -188,8 +201,7 @@ p{
     width: 930px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
-    background-color: #ffffff;
+    background-color:  transparent;
 }
 
 #GNU{
@@ -204,19 +216,19 @@ p{
     height: 100%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
-    background-color: #ffffff;
+    background-color:  #ffffffd3;
+
 }
 
 
 #tituloarticulo{
-font-family: Helvetica;
-font-size: 30px;
+    font-family: Helvetica;
+    font-size: 30px;
 }
 
 #contenido_articulo{
-font-family: Helvetica;
-font-size: 20px;
+    font-family: Helvetica;
+    font-size: 20px;
 }
 
 
@@ -229,10 +241,6 @@ font-size: 20px;
 
     #contenido_principal{
         width: 660px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 10px;
-        background-color: #ffffff;
     }
     
     #GNU{
