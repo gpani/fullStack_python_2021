@@ -1,90 +1,213 @@
+
 body{
     font-family: Verdana, Tahoma , Arial;
     background: -webkit-radial-gradient(top, #ccedc0 , rgb(130, 240, 231));												
 }
 
-header{
-width: 960px;
-height: 70px;
-margin-left: auto;
-margin-right: auto;
-}
 
 p{
-font-size: 14px;
+    font-size: 14px;
 }
 
-#marca{
-width: 220px;
-height: 70px;
-float: left; 
+#label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:1px;
+}  
+  
+#contact_form{  
+    width: 480px; 
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: #4fd4b3; 
+    padding-left: 30px; 
+}
+  
+  
+#input{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ab4493; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+}
+  
+  
+#textarea{
+    background-color: #fbfbfb; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ab4493; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+}  
+  
+#btn{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: #bb98f3; 
+    border-color: #bb98f3; 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 420px;   
+    cursor: pointer;
+    color: #fff; 
 }
 
-#botonera_principal{
-width: 400px;
-height: 40px;
-float: right;     
-margin-top: 20px;
+  
+  
+#text_h1{
+    font-size: 40px;  
+    padding-bottom: top; 
+    color:#d27fe7;
 }
+  
+  
+#text_h3{
+    font-weight: bold; 
+    padding-bottom: top;
+    color: #0e0e0e;
+    font-size: 16px;  
 
-
-#botonera_principal ul{
-margin:0;
-padding: 0;
-list-style-type: none;
-float: right;  
 }
-
-#botonera_principal ul li{
-display: inline; 
+  
+  
+#p_text{
+    font-size: 18px; 
+    color: #0e0e0e; 
 }
-
-#botonera_principal ul li a{
-display: inline-block; /*agregado*/
-padding: 10px;
-background-color: #074f07;
-color: #FFFFFF;
-font-weight: bold;
-text-decoration: none;
-}
-/*Algunos efectitos para los botones*/
-#botonera_principal ul li a:hover{
-    color:#000; 
-    background-color: rgb(43, 255, 0);   
-}
-#botonera_principal ul li a:active {
-    color: red;
+  
+  
+  ::-webkit-input-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  ::-webkit-textarea-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  .formulario input:focus{
+    outline:0;
+    border: 1px solid #97d848;
+  }
+  
+  
+  .formulario textarea:focus{
+    outline:0;
+    border: 1px solid #97d848;
   }
 
-#botonera_principal ul li a:visited { 
-    color: purple; 
+#logoImg{
+    border-width:2px;
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    background-repeat:no-repeat;
+    background-size: contain;
+    margin-bottom: 50px;
+    margin-left: 75px;
+
+    
 }
-#botonera_principal ul li a:link { 
-    color: blue; 
-} 
+
+.contacto{
+    border: 1px solid #CED5D7;
+    border-radius: 6px;
+    padding: 45px 45px 20px;
+    margin-top: 50px;
+    background-color: white;
+    box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px #EEF5F7 inset;
+}
+
+
+#logoImg2{
+    border-width:2px;
+    width: 350px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    background-repeat:no-repeat;
+    background-size: contain;
+    margin-bottom: 50px;
+
+    
+}
+#logoImg1{
+    width: 250px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    background-repeat:no-repeat;
+    background-size: contain;
+    margin-bottom: 50px;
+
+}
+
+
+
+#comu{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    color: rgb(36, 173, 253);
+    text-align: center;
+
+}
+#titulo{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    color: rgb(5, 3, 19);
+    text-align: center;
+
+}
+
+#divCont{
+    width: 930px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    background-color: #ffffff;
+}
+
+#GNU{
+    display:block;
+    margin:auto;
+    }
+
+
 
 #contenido_principal{
 width: 960px;
-height: 800px;	 
 margin-left: auto;
 margin-right: auto;
 margin-top: 10px;
-}
+background-color: #ffffff;
 
-#imagen1{
-width: 350px;
-height: 300px;
-background-color: #919463;
-float: left;
-margin-bottom: 10px;
-background-image: url(../img/hombrecito.jpg);
-background-size: cover;
 }
 
 #presentacion{
 width: 600px;
 height: 300px;
-background-color: #32344f;
+background-color: #b2a3b6;
 float: right;
 margin-bottom: 10px;
 padding: 10px;

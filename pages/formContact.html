@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Linux</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="../css/style.css">
+  <link href="https://getbootstrap.com/docs/4.1/examples/sticky-footer-navbar/sticky-footer-navbar.css" rel="stylesheet">
+  <style>
+    .fakeimg {
+      height: 200px;
+      background: #1778b8;
+    }
+  </style>
+</head>
+
+<body>
+    <div>
+              <div id="contact_form">
+            
+                  <h1 id="text_h1">Formulario de contacto</h1>
+                    <h3 id="text_h3">Escríbinos y en breve nos pondremos en contacto con usted</h3>      
+                      <form >                     
+                            <p id="p_text">
+                              <label id="label" for="nombre" class="colocar_nombre">Nombre
+                                <span class="obligatorio">*</span>
+                              </label>
+                                <input type="text" name="introducir_nombre" id="input" required="obligatorio" placeholder="Escribe tu nombre">
+                            </p>
+                          
+                            <p id="p_text">
+                              <label id="label" for="email" class="colocar_email">Email
+                                <span class="obligatorio">*</span>
+                              </label>
+                                <input type="email" name="introducir_email" id="input" required="obligatorio" placeholder="Escribe tu Email">
+                            </p>
+                        
+                            <p id="p_text">
+                              <label id="label" for="telefone" class="colocar_telefono">Teléfono
+                              </label>
+                                <input type="tel" name="introducir_telefono" id="input" placeholder="Escribe tu teléfono">
+                            </p>      
+                          
+                            <p id="p_text">
+                              <label  id="label" for="asunto" class="colocar_asunto">Asunto
+                                <span class="obligatorio">*</span>
+                              </label>
+                                <input type="text" name="introducir_asunto" id="input" required="obligatorio" placeholder="Escribe un asunto">
+                            </p>    
+                          
+                            <p id="p_text">
+                              <label id="label" for="mensaje" class="colocar_mensaje">Mensaje
+                                <span class="obligatorio">*</span>
+                              </label>                     
+                              <textarea name="introducir_mensaje" class="texto_mensaje" id="textarea" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                            </p>                    
+                          
+                            <button type="submit" name="enviar_formulario" id="btn">Enviar</button>
+            
+                            <p>
+                              <span class="obligatorio"> * </span>los campos son obligatorios.
+                            </p>          
+                        
+                      </form>
+              </div>
+            
+                    
+                 
+        </section>
+    </div>
+
+
+
+</html>
